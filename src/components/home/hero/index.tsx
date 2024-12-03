@@ -5,7 +5,8 @@ const Hero = () => {
     const Wrapper = styled.section`
         position: relative;
         width: 100%;
-        height: 783px;
+
+        aspect-ratio: 1440 / 783;
         
         .bg-img {
             position: absolute;
