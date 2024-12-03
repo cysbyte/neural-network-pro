@@ -31,7 +31,7 @@ const KeyFeatures = () => {
         margin-top: -5rem;
         position: relative;
         @media screen and (max-width: 1040px) {
-            margin-top: 5rem;
+            margin-top: -10rem;
         }
         .bg-img {
             position: absolute;
