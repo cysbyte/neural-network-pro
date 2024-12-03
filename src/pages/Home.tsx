@@ -24,7 +24,7 @@ const Home = () => {
         .upper-box {
         position: relative;
             background-color: #011038;
-            max-width: 1454px;
+            max-width: 1920px;
             overflow: hidden;
             margin: auto auto;
             padding: 0 0;
