@@ -39,6 +39,9 @@ const Join = () => {
                 padding: 2rem 0rem;
                 align-items:center;
                 border: 1px solid #01A9C4;
+                @media screen and (max-width: 1040px) {
+                    height: 399px;
+                }
                 img {
                     position: absolute;
                     top: 0;
