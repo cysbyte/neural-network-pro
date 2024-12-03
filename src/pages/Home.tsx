@@ -19,7 +19,7 @@ const Home = () => {
     const Wrapper = styled.main`
         width: 100%;
         overflow: hidden;
-        background-color: black;
+        background-color: #011038;
         z-index: 10;
         .upper-box {
         position: relative;

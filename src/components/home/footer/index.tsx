@@ -37,7 +37,7 @@ const Footer = () => {
         letter-spacing: 0.2px;
         @media screen and (max-width: 1040px) {
             width: 100%;
-            padding: 4rem 0rem;
+            padding: 4rem 1rem;
         }
         h2 {
             font-family: Inter;
