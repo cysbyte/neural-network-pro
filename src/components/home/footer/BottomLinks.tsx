@@ -47,6 +47,11 @@ const BottomLinks = () => {
         width: 100%;
         margin-top: 3rem;
         flex-wrap: wrap;
+        margin-left: -0.4rem;
+        @media screen and (max-width: 1040px) {
+            justify-content: center;
+            margin-left: 0rem;
+        }
 
         .link {
             text-decoration: none;
