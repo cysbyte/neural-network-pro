@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import bgHero from '@/assets/home/bg-hero.svg'
 import arrow from '@/assets/home/arrow.svg'
 
 const Hero = () => {

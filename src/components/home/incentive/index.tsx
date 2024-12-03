@@ -46,14 +46,14 @@ const Incentive = () => {
         },
     ]
 
-    const GradientBorderWrapper = styled.div`
-        background: conic-gradient(from 90deg at 50% 50%, #E75F00 0deg, #000000 79.2deg, #E75F00 360deg);
-        border-radius: 32px;
-        padding: 1px;
-        width: 100%;
-        height: auto;
-        margin-top: 2rem;
-    `
+    // const GradientBorderWrapper = styled.div`
+    //     background: conic-gradient(from 90deg at 50% 50%, #E75F00 0deg, #000000 79.2deg, #E75F00 360deg);
+    //     border-radius: 32px;
+    //     padding: 1px;
+    //     width: 100%;
+    //     height: auto;
+    //     margin-top: 2rem;
+    // `
 
     const Wrapper = styled.section`
         margin-top: 12rem;
