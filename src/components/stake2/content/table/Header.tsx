@@ -1,3 +1,4 @@
+import React from "react"
 import { RowWrapper } from "./RowWrapper"
 
 const Header = () => {
@@ -14,4 +15,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default React.memo(Header)

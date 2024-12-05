@@ -1,4 +1,5 @@
 import { useDialogContext } from '@/providers/DialogProvider'
+import React from 'react'
 import styled from 'styled-components'
 
 const ActionButton = ({ name, active }: {
@@ -40,4 +41,4 @@ const ActionButton = ({ name, active }: {
   )
 }
 
-export default ActionButton
+export default React.memo(ActionButton)

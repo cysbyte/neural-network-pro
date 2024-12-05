@@ -184,4 +184,4 @@ const StakeNet = () => {
   )
 }
 
-export default StakeNet
+export default React.memo(StakeNet)

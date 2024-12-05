@@ -1,4 +1,4 @@
-import React, { Suspense, useState } from 'react'
+import React, { Suspense } from 'react'
 import styled from 'styled-components'
 import StakeNet from './Stake'
 import Table from './Table'
@@ -89,4 +89,4 @@ const Content = () => {
   )
 }
 
-export default Content
+export default React.memo(Content)

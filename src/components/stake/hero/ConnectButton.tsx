@@ -24,4 +24,4 @@ const ConnectButton = () => {
   )
 }
 
-export default ConnectButton
+export default React.memo(ConnectButton)

@@ -24,4 +24,4 @@ const ConfirmButton = ({text}:{text: string}) => {
   )
 }
 
-export default ConfirmButton
+export default React.memo(ConfirmButton)

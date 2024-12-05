@@ -1,6 +1,4 @@
-import React from 'react'
 import styled from 'styled-components'
-import bgBottom from '@/assets/stake/bg-bottom.svg'
 
 const Features = () => {
 

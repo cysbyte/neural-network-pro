@@ -1,11 +1,7 @@
-import React from 'react'
-import styled from 'styled-components'
-import bgHero from '@/assets/home/bg-hero.svg'
-import bgGradient1 from '@/assets/home/bg-gradient1.svg'
-import bgGradient2 from '@/assets/home/bg-gradient2.svg'
 import Header from '@/components/home/header'
-import Hero from '@/components/stake/hero'
 import Features from '@/components/stake/features'
+import Hero from '@/components/stake/hero'
+import styled from 'styled-components'
 
 
 const Stake = () => {

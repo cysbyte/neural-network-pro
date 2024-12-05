@@ -48,4 +48,4 @@ const Period = ({ active, month }:
     )
 }
 
-export default Period
+export default React.memo(Period)

@@ -1,5 +1,4 @@
 import React, { ReactNode } from 'react'
-import styled from 'styled-components'
 import iconNet from '@/assets/stake/icon-net.svg'
 import done from '@/assets/stake/done.svg'
 import { RowWrapper } from './RowWrapper';
@@ -33,4 +32,4 @@ const Row = (props: RowProps) => {
   )
 }
 
-export default Row
+export default React.memo(Row)

@@ -1,8 +1,7 @@
+import close from '@/assets/stake/close.svg';
+import { useDialogContext } from "@/providers/DialogProvider";
 import { useEffect, useRef } from "react";
 import styled from "styled-components";
-import close from '@/assets/stake/close.svg'
-import { useDialogContext } from "@/providers/DialogProvider";
-import ConnectButton from "@/components/stake/hero/ConnectButton";
 import ConfirmButton from "./ConfirmButton";
 
 interface DialogProps {
@@ -16,10 +15,10 @@ export default function Dialog(props: DialogProps) {
         dialogRef.current?.showModal();
     }, []);
 
-    const closeDialog = () => {
-        dialogRef.current?.close();
-        props.onClose();
-    };
+    // const closeDialog = () => {
+    //     dialogRef.current?.close();
+    //     props.onClose();
+    // };
 
     const {setShowDialog} = useDialogContext()
 
