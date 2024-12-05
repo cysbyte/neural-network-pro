@@ -15,12 +15,13 @@ export default function Dialog(props: DialogProps) {
         dialogRef.current?.showModal();
     }, []);
 
-    // const closeDialog = () => {
-    //     dialogRef.current?.close();
-    //     props.onClose();
-    // };
-
     const {setShowDialog} = useDialogContext()
+
+    const closeDialog = () => {
+        dialogRef.current?.close();
+        setShowDialog(false)
+        props.onClose();
+    };
 
     const Wrapper = styled.dialog`
         &::backdrop {
@@ -71,7 +72,7 @@ export default function Dialog(props: DialogProps) {
             flex-direction: column;
             justify-content: space-between;
             align-items: start;
-            margin-top: 2rem;
+            margin-top: 2.5rem;
             .net-info {
                 display: flex;
                 justify-content: space-between;
@@ -169,7 +170,7 @@ export default function Dialog(props: DialogProps) {
         <Wrapper ref={dialogRef}>
             <div className="top-box">
                 <h2>Unstake</h2>
-                <img className="close" onClick={()=>setShowDialog(false)} src={close} alt="" />
+                <img className="close" onClick={closeDialog} src={close} alt="" />
             </div>
             <div className="net-box">
                 <div className="net-info">
