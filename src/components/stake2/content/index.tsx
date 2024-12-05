@@ -61,8 +61,14 @@ const Content = () => {
             }
         }
     `
+    const FixWidthBox = styled.div`
+    width: 1040px;
+    margin: auto auto;
+  `
+
   return (
     <Wrapper>
+        <FixWidthBox>
         <div className='top-box'>
           {
             mirData.map((item)=>(
@@ -85,6 +91,7 @@ const Content = () => {
               />
           </Suspense>
       }
+      </FixWidthBox>
     </Wrapper>
   )
 }
