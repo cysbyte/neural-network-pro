@@ -8,7 +8,7 @@ const Header = () => {
         <div></div>
         <p>Staked</p>
         <p>MIR</p>
-        <p>Current Rewards Earned</p>
+        <p>Bonus Reward</p>
         <p>Remaining Days</p>
         <p></p>
     </RowWrapper>
