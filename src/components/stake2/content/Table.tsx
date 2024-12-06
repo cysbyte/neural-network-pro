@@ -4,6 +4,22 @@ import Row from './table/Row'
 import Header from './table/Header'
 import ActionButton from './table/ActionButton'
 
+const Wrapper = styled.article`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-contetn: center;
+    gap: 0rem;
+    width: 100%;
+    border: 1px solid #01A9C4;
+    background-color: #1212121F;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 0.3rem 2rem;
+`
+
 const Table = () => {
     const data = [
         {
@@ -44,21 +60,6 @@ const Table = () => {
         },
     ]
 
-    const Wrapper = styled.article`
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-contetn: center;
-        gap: 0rem;
-        width: 100%;
-        border: 1px solid #01A9C4;
-        background-color: #1212121F;
-        border-radius: 32px;
-        overflow: hidden;
-        margin-top: 2rem;
-        width: 100%;
-        padding: 0.3rem 2rem;
-    `
     return (
         <Wrapper>
             <Header/>

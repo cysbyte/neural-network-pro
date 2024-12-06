@@ -5,23 +5,6 @@ import SocialLinks from './SocialLinks'
 import BottomLinks from './BottomLinks'
 
 const Footer = () => {
-    const data = [
-        {
-            id: 1,
-            title: "Modular Architecture",
-            desc: "Insights on Neural Network’s layered structure supporting decentralized AI."
-        },
-        {
-            id: 2,
-            title: "Security & Privacy",
-            desc: "Explore how Neural Network uses ZKPs and cryptographic techniques for secure data handling."
-        },
-        {
-            id: 3,
-            title: "AI Collaboration & Development",
-            desc: "Learn how global contributors power innovation in AI models and applications."
-        },
-    ]
     const Wrapper = styled.section`
         width: 100%;
         height: 1078px;
@@ -180,6 +163,24 @@ const Footer = () => {
         border-top: 1px solid #3D3D3D;
         padding: 7rem 0rem;
     `
+    
+    const data = [
+        {
+            id: 1,
+            title: "Modular Architecture",
+            desc: "Insights on Neural Network’s layered structure supporting decentralized AI."
+        },
+        {
+            id: 2,
+            title: "Security & Privacy",
+            desc: "Explore how Neural Network uses ZKPs and cryptographic techniques for secure data handling."
+        },
+        {
+            id: 3,
+            title: "AI Collaboration & Development",
+            desc: "Learn how global contributors power innovation in AI models and applications."
+        },
+    ]
 
     return (
         <Wrapper>

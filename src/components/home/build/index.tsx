@@ -1,6 +1,78 @@
 import styled from 'styled-components'
 import bgBuild from '@/assets/home/bg-build.svg'
 
+const Wrapper = styled.section`
+    width: 100%;
+    margin-top: 12.5rem;
+    position: relative;
+    @media screen and (max-width: 1040px) {
+        margin-top: 5rem;
+    }
+    .bg-img {
+        position: absolute;
+        right: 0;
+        top: 7rem;
+    }
+    h2 {
+        font-family: Inter;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 53.25px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+        width: 100%;
+        span {
+            color: #E75F00;
+        }
+        @media screen and (max-width: 1040px) {
+            font-size: 30px;
+            font-weight: 500;
+            line-height: 36px;
+        }
+    }
+    .middle-box {
+        width: 1040px;
+        margin: auto auto;
+        @media screen and (max-width: 1040px) {
+            width: 100%;
+            padding: 1rem;
+        }
+        .container { 
+            height: 708px;
+            border: 0px solid #414141;
+            background-color: #1111155C;
+            border-radius: 32px;
+            padding: 1.2rem;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            gap: 0rem;    
+            margin-top: 4.5rem;   
+            @media screen and (max-width: 1040px) {
+                flex-direction: column;
+                height: auto;
+                gap: 1.5rem;
+                padding: 0rem;
+                border-width: 0px;
+            }
+        }
+        .bottom-desc {
+            font-family: Inter;
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19.36px;
+            text-align: left;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            color: #FFFFFF80;
+            margin-top: 1.5rem;
+        }
+    }
+`
+
 const Build = () => {
     const leftData = [
         {
@@ -41,77 +113,6 @@ const Build = () => {
             desc: "A decentralized space for AI asset sharing, licensing, and monetization.",
         },
     ]
-    const Wrapper = styled.section`
-        width: 100%;
-        margin-top: 12.5rem;
-        position: relative;
-        @media screen and (max-width: 1040px) {
-            margin-top: 5rem;
-        }
-        .bg-img {
-            position: absolute;
-            right: 0;
-            top: 7rem;
-        }
-        h2 {
-            font-family: Inter;
-            font-size: 44px;
-            font-weight: 700;
-            line-height: 53.25px;
-            text-align: center;
-            text-underline-position: from-font;
-            text-decoration-skip-ink: none;
-            color: white;
-            width: 100%;
-            span {
-                color: #E75F00;
-            }
-            @media screen and (max-width: 1040px) {
-                font-size: 30px;
-                font-weight: 500;
-                line-height: 36px;
-            }
-        }
-        .middle-box {
-            width: 1040px;
-            margin: auto auto;
-            @media screen and (max-width: 1040px) {
-                width: 100%;
-                padding: 1rem;
-            }
-            .container { 
-                height: 708px;
-                border: 0px solid #414141;
-                background-color: #1111155C;
-                border-radius: 32px;
-                padding: 1.2rem;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-                align-items: center;
-                gap: 0rem;    
-                margin-top: 4.5rem;   
-                @media screen and (max-width: 1040px) {
-                    flex-direction: column;
-                    height: auto;
-                    gap: 1.5rem;
-                    padding: 0rem;
-                    border-width: 0px;
-                }
-            }
-            .bottom-desc {
-                font-family: Inter;
-                font-size: 16px;
-                font-weight: 300;
-                line-height: 19.36px;
-                text-align: left;
-                text-underline-position: from-font;
-                text-decoration-skip-ink: none;
-                color: #FFFFFF80;
-                margin-top: 1.5rem;
-            }
-        }
-    `
 
     const LeftContainer = styled.div`
         display: flex;

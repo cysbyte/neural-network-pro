@@ -1,24 +1,25 @@
 import styled from 'styled-components'
 import bgCard from '@/assets/home/bg-technology-card.svg'
 
+const data = [
+    {
+        id: 1,
+        title: "AI-Powered Execution Layer",
+        desc: "Purpose-built for running AI models, our execution layer leverages Ethereum’s VM to handle training, validation, and inference, delivering seamless AI task management.",
+    },
+    {
+        id: 2,
+        title: "Transparent Data Availability Layer",
+        desc: "Accessible, verifiable data builds a trust-driven network environment, allowing all participants to confidently access essential AI data.",
+    },
+    {
+        id: 3,
+        title: "Consensus Layer: Performance-Driven",
+        desc: "Verifies and ranks AI contributions, rewarding high-quality model performance and ensuring optimal collaboration across the network.",
+    },
+]
+
 const Technology = () => {
-    const data = [
-        {
-            id: 1,
-            title: "AI-Powered Execution Layer",
-            desc: "Purpose-built for running AI models, our execution layer leverages Ethereum’s VM to handle training, validation, and inference, delivering seamless AI task management.",
-        },
-        {
-            id: 2,
-            title: "Transparent Data Availability Layer",
-            desc: "Accessible, verifiable data builds a trust-driven network environment, allowing all participants to confidently access essential AI data.",
-        },
-        {
-            id: 3,
-            title: "Consensus Layer: Performance-Driven",
-            desc: "Verifies and ranks AI contributions, rewarding high-quality model performance and ensuring optimal collaboration across the network.",
-        },
-    ]
     const Wrapper = styled.section`
         width: 100%;
         margin-top: 9.5rem;

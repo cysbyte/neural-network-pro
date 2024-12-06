@@ -14,50 +14,50 @@ import bgHero from '@/assets/home/bg-hero.svg'
 import bgGradient1 from '@/assets/home/bg-gradient1.svg'
 import bgGradient2 from '@/assets/home/bg-gradient2.svg'
 
+const Wrapper = styled.main`
+    width: 100%;
+    overflow: hidden;
+    background-color: #011038;
+    z-index: 10;
+    .upper-box {
+    position: relative;
+        background-color: #011038;
+        max-width: 1920px;
+        overflow: hidden;
+        margin: auto auto;
+        padding: 0 0;
+        @media screen and (max-width: 800px) {
+            padding: 0rem 1rem;
+            overflow: hidden;
+        }
+        .bg-gradient1 {
+            position: absolute;
+            top: 130rem;
+            right: 0;
+        }
+        .bg-gradient2 {
+            position: absolute;
+            top: 250rem;
+            left: 0;
+        }
+    }
+`
+
+const HeaderHeroWrapper = styled.div`
+    position: relative;
+    .bg-hero {
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+        top: 0;
+        left: 0;
+        @media screen and (max-width: 1040px) {
+            display: none;
+        }
+    }
+`
 
 const Home = () => {
-    const Wrapper = styled.main`
-        width: 100%;
-        overflow: hidden;
-        background-color: #011038;
-        z-index: 10;
-        .upper-box {
-        position: relative;
-            background-color: #011038;
-            max-width: 1920px;
-            overflow: hidden;
-            margin: auto auto;
-            padding: 0 0;
-            @media screen and (max-width: 800px) {
-                padding: 0rem 1rem;
-                overflow: hidden;
-            }
-            .bg-gradient1 {
-                position: absolute;
-                top: 130rem;
-                right: 0;
-            }
-            .bg-gradient2 {
-                position: absolute;
-                top: 250rem;
-                left: 0;
-            }
-        }
-    `
-
-    const HeaderHeroWrapper = styled.div`
-        position: relative;
-        .bg-hero {
-            position: absolute;
-            width: 100%;
-            object-fit: cover;
-            top: 0;
-            left: 0;
-            @media screen and (max-width: 1040px) {
-                display: none;
-            }
-        }
-    `
     return (
         <Wrapper>
             <div className='upper-box'>

@@ -12,8 +12,6 @@ interface RowProps {
     action: ReactNode;
 }
 
-
-
 const Row = (props: RowProps) => {
   return (
     <RowWrapper borderColor='#FFFFFF33' verticalPadding='1.2rem'>

@@ -5,56 +5,6 @@ import Desc3 from './Desc3'
 import Desc4 from './Desc4'
 import separator from '@/assets/home/separator.svg'
 
-const Incentive = () => {
-    const data1 = [
-        {
-            id: 1,
-            title: "Total Supply",
-            desc: <Desc1 />
-        },
-        {
-            id: 2,
-            title: "Team Allocation",
-            desc: <Desc2 />
-        },
-        {
-            id: 3,
-            title: "Total Supply",
-            desc: <Desc3 />
-        },
-        {
-            id: 4,
-            title: "Mining & Rewards",
-            desc: <Desc4 />
-        },
-    ]
-    const data2 = [
-        {
-            id: 1,
-            title: "Staking & Penalties",
-            desc: "Minimum staking duration with early withdrawal penalties"
-        },
-        {
-            id: 2,
-            title: "Governance Benefits",
-            desc: "Enhanced rights for large contributors"
-        },
-        {
-            id: 3,
-            title: "Transaction Tax",
-            desc: "Funding for DAOAgent"
-        },
-    ]
-
-    // const GradientBorderWrapper = styled.div`
-    //     background: conic-gradient(from 90deg at 50% 50%, #E75F00 0deg, #000000 79.2deg, #E75F00 360deg);
-    //     border-radius: 32px;
-    //     padding: 1px;
-    //     width: 100%;
-    //     height: auto;
-    //     margin-top: 2rem;
-    // `
-
     const Wrapper = styled.section`
         margin-top: 12rem;
         position: relative;
@@ -210,6 +160,56 @@ const Incentive = () => {
             }
         }
     `
+
+const Incentive = () => {
+    const data1 = [
+        {
+            id: 1,
+            title: "Total Supply",
+            desc: <Desc1 />
+        },
+        {
+            id: 2,
+            title: "Team Allocation",
+            desc: <Desc2 />
+        },
+        {
+            id: 3,
+            title: "Total Supply",
+            desc: <Desc3 />
+        },
+        {
+            id: 4,
+            title: "Mining & Rewards",
+            desc: <Desc4 />
+        },
+    ]
+    const data2 = [
+        {
+            id: 1,
+            title: "Staking & Penalties",
+            desc: "Minimum staking duration with early withdrawal penalties"
+        },
+        {
+            id: 2,
+            title: "Governance Benefits",
+            desc: "Enhanced rights for large contributors"
+        },
+        {
+            id: 3,
+            title: "Transaction Tax",
+            desc: "Funding for DAOAgent"
+        },
+    ]
+
+    // const GradientBorderWrapper = styled.div`
+    //     background: conic-gradient(from 90deg at 50% 50%, #E75F00 0deg, #000000 79.2deg, #E75F00 360deg);
+    //     border-radius: 32px;
+    //     padding: 1px;
+    //     width: 100%;
+    //     height: auto;
+    //     margin-top: 2rem;
+    // `
     return (
         <Wrapper>
             <img className='separator' src={separator} alt="" />

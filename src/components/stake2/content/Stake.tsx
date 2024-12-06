@@ -6,33 +6,6 @@ import Period from './Period'
 import ConnectButton from '@/components/stake/hero/ConnectButton'
 
 const StakeNet = () => {
-    const periods = [
-        {
-            id: 1,
-            active: true,
-            month: 1,
-        },
-        {
-            id: 2,
-            active: true,
-            month: 3,
-        },
-        {
-            id: 3,
-            active: true,
-            month: 6,
-        },
-        {
-            id: 4,
-            active: true,
-            month: 12,
-        },
-        {
-            id: 5,
-            active: false,
-            month: 18,
-        },
-    ]
     const Wrapper = styled.div`
         display: flex;
         flex-direction: column;
@@ -151,6 +124,33 @@ const StakeNet = () => {
             margin: 2rem 0rem;
         }
     `
+    const periods = [
+        {
+            id: 1,
+            active: true,
+            month: 1,
+        },
+        {
+            id: 2,
+            active: true,
+            month: 3,
+        },
+        {
+            id: 3,
+            active: true,
+            month: 6,
+        },
+        {
+            id: 4,
+            active: true,
+            month: 12,
+        },
+        {
+            id: 5,
+            active: false,
+            month: 18,
+        },
+    ]
   return (
     
     <Wrapper>
