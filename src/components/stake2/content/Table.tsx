@@ -9,36 +9,36 @@ const Table = () => {
         {
             id: 1,
             name: 'NET',
-            staked: '500.00NET',
+            staked: '500.00 NET',
             mir: '15.00%',
-            currentRewordsEarned: '25.00NET',
+            currentRewordsEarned: '25.00 NET',
             remainingDays: '2 Days',
             action: <ActionButton name='Unstake' active={true}/>
         },
         {
             id: 2,
             name: 'NET',
-            staked: '500.00NET',
+            staked: '500.00 NET',
             mir: '15.00%',
-            currentRewordsEarned: '25.00NET',
+            currentRewordsEarned: '25.00 NET',
             remainingDays: 'Early Redemption',
             action: <ActionButton name='Unstaked' active={false}/>
         },
         {
             id: 3,
             name: 'NET',
-            staked: '500.00NET',
+            staked: '500.00 NET',
             mir: '15.00%',
-            currentRewordsEarned: '25.00NET',
+            currentRewordsEarned: '25.00 NET',
             remainingDays: 'Done',
             action: <ActionButton name='Claim' active={true}/>
         },
         {
             id: 4,
             name: 'NET',
-            staked: '500.00NET',
+            staked: '500.00 NET',
             mir: '15.00%',
-            currentRewordsEarned: '25.00NET',
+            currentRewordsEarned: '25.00 NET',
             remainingDays: 'Done',
             action: <ActionButton name='Claimed' active={false}/>
         },

@@ -51,7 +51,7 @@ const Hero = () => {
   return (
     <Wrapper>
         <h1>Simple and Secure Staking</h1>
-        <p>Join now to enjoy the highest returns available act early for greater benefits!</p>
+        <p>Join now and enjoy the highest returns available. Act early for greater benefits!</p>
     </Wrapper>
   )
 }

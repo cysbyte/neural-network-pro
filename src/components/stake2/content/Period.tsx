@@ -35,7 +35,7 @@ const Period = ({ active, month }:
             text-underline-position: from-font;
             text-decoration-skip-ink: none;
             color: white;
-            margin-right: -11px;
+            margin-right: -25px;
         }
     `
     return (
@@ -43,7 +43,7 @@ const Period = ({ active, month }:
             <div>
                 <img className='img' src={active ? periodActive : periodInactive} alt="" />
             </div>
-            <p>{month}m</p>
+            <p>{month} month</p>
         </Wrapper>
     )
 }

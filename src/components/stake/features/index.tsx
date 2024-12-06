@@ -11,7 +11,7 @@ const Features = () => {
         {
             id: 2,
             title: 'Bonus Reward Program',
-            desc: 'In addition to the base rate, enjoy extra earnings'
+            desc: 'Enjoy extra earnings in addition to the base rate'
         },
         {
             id: 3,

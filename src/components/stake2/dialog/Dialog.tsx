@@ -175,7 +175,7 @@ export default function Dialog(props: DialogProps) {
             <div className="net-box">
                 <div className="net-info">
                     <p>NET</p>
-                    <p>500.00NET</p>
+                    <p>500.00 NET</p>
                 </div>
                 <p className="net-desc">Remaining Days: 2 Days</p>
             </div>
@@ -183,12 +183,12 @@ export default function Dialog(props: DialogProps) {
                 <h6 className="unstake">Unstake Now</h6>
                 <div className="list-box">
                     <div className="info-box">
-                        <p>Earned Rewards Will Be Canceled</p>
-                        <p>25.0ONET</p>
+                        <p>Earned rewards will be canceled</p>
+                        <p>25.00 NET</p>
                     </div>
                     <div className="info-box">
-                        <p>Early Termination Fee Applies</p>
-                        <p>50.0ONET</p>
+                        <p>Early termination fee applies</p>
+                        <p>50.00 NET</p>
                     </div>
                 </div>
             </UnstakeBox>
