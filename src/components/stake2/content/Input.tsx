@@ -8,8 +8,7 @@ const Wrapper = styled.div`
         width: 100%;
         border: none;          
         outline: none;        
-        padding: 1rem 0;     
-        margin-top: 1rem;   
+        padding: 1rem 0;        
         background-color: rgba(0,0,0,0);
         color: white;            
         @media screen and (max-width: 800px) {
