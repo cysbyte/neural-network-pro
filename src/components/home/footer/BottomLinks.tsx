@@ -75,7 +75,7 @@ const BottomLinks = () => {
         <Wrapper>
             {
                 data.map((item) => (
-                    <Link id={item.id}
+                    <Link key={item.id}
                         className={`link ${item.id === 7 ? 'no-border' : ''}`}
                         to={item.link}
                     >
