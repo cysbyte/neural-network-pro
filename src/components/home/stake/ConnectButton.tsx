@@ -1,6 +1,5 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
-import IconLoading from '@/assets/icon_loading2.png'
 
 const rotate = keyframes`
   from {
