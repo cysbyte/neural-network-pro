@@ -9,6 +9,7 @@ const KeyFeatures = React.lazy(() => import('@/components/home/key-features'))
 const Header = React.lazy(() => import('@/components/home/header'))
 const Privacy = React.lazy(() => import('@/components/home/privacy'))
 const Technology = React.lazy(() => import('@/components/home/technology'))
+const Stake = React.lazy(() => import('@/components/home/stake'))
 import styled from 'styled-components'
 import bgHero from '@/assets/home/bg-hero.svg'
 import bgGradient1 from '@/assets/home/bg-gradient1.svg'
@@ -58,6 +59,7 @@ const HeaderHeroWrapper = styled.div`
 `
 
 const Home = () => {
+    
     return (
         <Wrapper>
             <div className='upper-box'>
@@ -68,6 +70,7 @@ const Home = () => {
                     <Header />
                     <Hero />
                 </HeaderHeroWrapper>
+                <Stake/>
                 <KeyFeatures />
                 <Technology />
                 <Build />

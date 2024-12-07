@@ -4,7 +4,7 @@ import bg from '@/assets/home/bg-features.svg'
 const Wrapper = styled.section`
     width: 100%;
     height: 662px;
-    margin-top: -5rem;
+    margin-top: 0rem;
     position: relative;
     @media screen and (max-width: 1040px) {
         margin-top: -10rem;
@@ -145,6 +145,7 @@ const KeyFeatures = () => {
             desc: "Neural Network's modular architecture enables developers to build scalable, high-performance AI systems by separating execution, consensus, and data availability into dedicated layers.",
         },
     ]
+
     return (
         <Wrapper>
             <h2>Core Features</h2>
