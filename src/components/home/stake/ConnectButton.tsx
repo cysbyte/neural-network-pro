@@ -1,21 +1,6 @@
 import React from 'react'
 import styled, { keyframes } from 'styled-components'
 
-const rotate = keyframes`
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-`;
-
-const LoadingIcon = styled.img`
-  width: 1.2rem;
-  height: 1.2rem;
-  margin-right: 0.4rem;
-  animation: ${rotate} 1.6s linear infinite;
-`;
 
 const ConnectButton = ({ onClick, children, loading }: { onClick: React.MouseEventHandler<HTMLButtonElement> | undefined, children: React.ReactNode, loading: boolean }) => {
   const Wrapper = styled.button`

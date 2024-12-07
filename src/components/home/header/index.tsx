@@ -27,25 +27,6 @@ const Wrapper = styled.section`
         font-size: 20px;
     }
   }
-  .right-box {
-    display: flex;
-    gap: 1.3rem;
-    justify-content: center;
-    align-items: center;
-    @media screen and (max-width: 800px) {
-        display: none;
-    }
-    .signin-button {
-      font-family: Inter;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 19.36px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      color: white;
-      text-decoration: none;
-    }
     .right-box {
       display: flex;
       gap: 1.3rem;
@@ -81,7 +62,6 @@ const Wrapper = styled.section`
         border-width: 0px;
         cursor: pointer;
       }
-    }
   }
   
 `
