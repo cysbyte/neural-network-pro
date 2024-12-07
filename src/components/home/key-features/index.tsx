@@ -77,6 +77,8 @@ const Wrapper = styled.section`
             grid-template-columns: 1fr 1fr;
             row-gap: 2.2rem;
             column-gap: 4rem;
+            position: relative;
+            z-index: 999;
             @media screen and (max-width: 1040px) {
                 width: 100%;
                 display: flex;

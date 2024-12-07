@@ -124,6 +124,11 @@ const Build = () => {
         width: 319px;
         @media screen and (max-width: 1040px) {
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
         }
 
         .left-card {
@@ -133,13 +138,15 @@ const Build = () => {
             border-radius: 32px;    
             padding: 2rem 1.2rem 2rem 1.5rem;
             height: 100%;
+            flex: 1;
             @media screen and (max-width: 1040px) {
+                width: 100%;
                 padding: 1rem;
             }
             h3 {
                 font-family: Inter;
                 font-size: 24px;
-                font-weight: 500;
+                font-weight: 400;
                 line-height: 29.05px;
                 text-align: left;
                 text-underline-position: from-font;
@@ -190,7 +197,7 @@ const Build = () => {
             h3 {
                 font-family: Inter;
                 font-size: 24px;
-                font-weight: 500;
+                font-weight: 400;
                 line-height: 29.05px;
                 text-align: left;
                 text-underline-position: from-font;

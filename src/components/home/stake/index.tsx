@@ -71,6 +71,7 @@ const Wrapper = styled.section`
       z-index: 999; 
     }
     .mir-box {
+      position: relative;
       border: 1px solid #01A9C4;
       width: 426px;
       border-radius: 32px;

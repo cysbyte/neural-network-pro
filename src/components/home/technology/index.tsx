@@ -23,12 +23,14 @@ const Technology = () => {
     const Wrapper = styled.section`
         width: 100%;
         margin-top: 9.5rem;
+        position: relative;
         @media screen and (max-width: 1040px) {
             margin-top: 30rem;
         }
         .container {
             width: 1040px;
             margin: auto auto;
+            z-index: 999;
             @media screen and (max-width: 1040px) {
                 width: 100%;
                 padding: 1rem;
@@ -101,20 +103,21 @@ const Technology = () => {
                             width: 100%;
                         }
                         h6 {
+                            position: relative;
                             font-family: Inter;
                             font-size: 24px;
-                            font-weight: 500;
+                            font-weight: 400;
                             line-height: 29.05px;
                             text-align: left;
                             text-underline-position: from-font;
                             text-decoration-skip-ink: none;
                             color: white;
-
                         }
                         p {
+                            position: relative;
                             font-family: Inter;
                             font-size: 16px;
-                            font-weight: 400;
+                            font-weight: 300;
                             line-height: 19.36px;
                             text-align: left;
                             text-underline-position: from-font;

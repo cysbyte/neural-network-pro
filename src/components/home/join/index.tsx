@@ -58,10 +58,38 @@ const Wrapper = styled.section`
                 z-index: 10;
                 margin-top: 1.5rem;
 
-                @media screen and (max-width: 1040px) {
-                    font-size: 30px;
-                    line-height: 36px;
-                    font-weight: 500;
+                    @media screen and (max-width: 1040px) {
+                        font-size: 30px;
+                        line-height: 36px;
+                        font-weight: 500;
+                    }
+                }
+                p {
+                    font-family: Inter;
+                    font-size: 16px;
+                    font-weight: 400;
+                    line-height: 19.36px;
+                    text-align: center;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #FFFFFFB8;
+                    margin-top: -1rem;
+                }
+                .join-telegram {
+                    font-family: DM Sans;
+                    font-size: 26.89px;
+                    font-weight: 700;
+                    line-height: 35.01px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    text-decoration: none;
+                    padding: 0.7rem 3.3rem;
+                    background: linear-gradient(180deg, #00D7E6 0%, #001348 100%);
+                    color: white;
+                    border-radius: 32px;
+                    cursor: pointer;
+                    z-index: 999;
                 }
             }
             p {

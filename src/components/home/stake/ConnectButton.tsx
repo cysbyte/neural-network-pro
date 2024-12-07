@@ -32,11 +32,12 @@ const ConnectButton = ({ onClick, children, loading }: { onClick: React.MouseEve
         border-radius: 40px;
         border-color: white;
         border-width: 0px;
+        cursor: pointer;
     `
 
   return (
     <Wrapper onClick={loading ? undefined : onClick}>
-      { loading && <LoadingIcon src={IconLoading} alt="loading" /> }
+      
       {children}
     </Wrapper>
   )

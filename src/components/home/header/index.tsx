@@ -46,20 +46,41 @@ const Wrapper = styled.section`
       color: white;
       text-decoration: none;
     }
-    .connect-button {
-      padding: 1rem 2.2rem;
-      background: linear-gradient(180deg, #00D7E6 0%, #001348 100%);
-      color: white;
-      font-family: Inter;
-      font-size: 16px;
-      font-weight: 700;
-      line-height: 19.36px;
-      text-align: left;
-      text-underline-position: from-font;
-      text-decoration-skip-ink: none;
-      border-radius: 40px;
-      border-color: white;
-      border-width: 0px;
+    .right-box {
+      display: flex;
+      gap: 1.3rem;
+      justify-content: center;
+      align-items: center;
+      @media screen and (max-width: 800px) {
+          display: none;
+      }
+      .signin-button {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 19.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+        text-decoration: none;
+      }
+      .connect-button {
+        padding: 1rem 2.2rem;
+        background: linear-gradient(180deg, #00D7E6 0%, #001348 100%);
+        color: white;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        border-radius: 40px;
+        border-color: white;
+        border-width: 0px;
+        cursor: pointer;
+      }
     }
   }
   
