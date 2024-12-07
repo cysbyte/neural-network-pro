@@ -19,8 +19,8 @@ const Wrapper = styled.div`
     margin-top: 2rem;
     .upper-box {
         width: 100%;
-        padding: 2rem;
-        background-color: #1212121F;
+        padding: 2rem 2rem !important;
+        background-color: #1212121F !important;
         .stake-net-box {
             display: flex;
             align-items: center;

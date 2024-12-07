@@ -1,5 +1,5 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
+import styled from 'styled-components'
 
 
 const ConnectButton = ({ onClick, children, loading }: { onClick: React.MouseEventHandler<HTMLButtonElement> | undefined, children: React.ReactNode, loading: boolean }) => {
