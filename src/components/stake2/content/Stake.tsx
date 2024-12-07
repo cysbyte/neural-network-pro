@@ -5,125 +5,126 @@ import Input from './Input'
 import Period from './Period'
 import ConnectButton from '@/components/stake/hero/ConnectButton'
 
-const StakeNet = () => {
-    const Wrapper = styled.div`
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-contetn: center;
-        gap: 0rem;
+const Wrapper = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-contetn: center;
+    gap: 0rem;
+    width: 100%;
+    border: 1px solid #01A9C4;
+    background-color: #1212121F;
+    border-radius: 32px;
+    overflow: hidden;
+    margin-top: 2rem;
+    .upper-box {
         width: 100%;
-        border: 1px solid #01A9C4;
+        padding: 2rem;
         background-color: #1212121F;
-        border-radius: 32px;
-        overflow: hidden;
-        margin-top: 2rem;
-        .upper-box {
+        .stake-net-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 100%;
-            padding: 2rem;
-            background-color: #1212121F;
-            .stake-net-box {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
-                h5 {
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-weight: 300;
-                    line-height: 29.05px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF80;
-                }
-                p {
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-weight: 300;
-                    line-height: 24.2px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF80;
-                    span {
-                        color: #FFFFFF;
-                    }
-                }
+            h5 {
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 29.05px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF80;
             }
-            .input-box {
-                padding: 0.5rem 2rem;
-                background-color: #FFFFFF1F;
-                border-radius: 24px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
-                margin-top: 1rem;
-                button {
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-weight: 400;
-                    line-height: 24.2px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    background: linear-gradient(180deg, #01A9C4 0%, #001348 100%);
-                    border-radius: 16px;
-                    color: white;
-                    padding: 0.6rem 2rem;
-                    border-width: 0;
+            p {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 24.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF80;
+                span {
+                    color: #FFFFFF;
                 }
             }
         }
-        .middle-box {
+        .input-box {
+            padding: 0.5rem 2rem;
+            background-color: #FFFFFF1F;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
             width: 100%;
-            padding: 0rem 2rem;
-            background-color: #1212121F;
-            .staking-period-box {
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
-                h5 {
-                    font-family: Inter;
-                    font-size: 24px;
-                    font-weight: 300;
-                    line-height: 29.05px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF80;
-                }
-                p {
-                    font-family: Inter;
-                    font-size: 20px;
-                    font-weight: 300;
-                    line-height: 24.2px;
-                    text-align: left;
-                    text-underline-position: from-font;
-                    text-decoration-skip-ink: none;
-                    color: #FFFFFF80;
-                    span {
-                        color: #FFFFFF;
-                    }
-                }
-            }
-            .period-box {
-                padding: 4rem 3rem 1.5rem 2.5rem;
-                background-color: #FFFFFF1F;
-                border-radius: 24px;
-                display: flex;
-                align-items: center;
-                justify-content: space-between;
-                width: 100%;
-                margin-top: 1rem;
+            margin-top: 1rem;
+            button {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 400;
+                line-height: 24.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                background: linear-gradient(180deg, #01A9C4 0%, #001348 100%);
+                border-radius: 16px;
+                color: white;
+                padding: 0.6rem 2rem;
+                border-width: 0;
+                cursor: pointer;
             }
         }
-        .connect-button-box {
-            margin: 2rem 0rem;
+    }
+    .middle-box {
+        width: 100%;
+        padding: 0rem 2rem;
+        background-color: #1212121F;
+        .staking-period-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            h5 {
+                font-family: Inter;
+                font-size: 24px;
+                font-weight: 300;
+                line-height: 29.05px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF80;
+            }
+            p {
+                font-family: Inter;
+                font-size: 20px;
+                font-weight: 300;
+                line-height: 24.2px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF80;
+                span {
+                    color: #FFFFFF;
+                }
+            }
         }
-    `
+        .period-box {
+            padding: 4rem 3rem 1.5rem 2.5rem;
+            background-color: #FFFFFF1F;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            margin-top: 1rem;
+        }
+    }
+    .connect-button-box {
+        margin: 2rem 0rem;
+    }
+`
+const StakeNet = () => {
     const periods = [
         {
             id: 1,

@@ -44,12 +44,6 @@ const Wrapper = styled.article`
         }
     }
 `
-
-const FixWidthBox = styled.div`
-width: 1040px;
-margin: auto auto;
-`
-
 const Content = () => {
 
     const {showDialog, setShowDialog} = useDialogContext()
@@ -67,6 +61,10 @@ const Content = () => {
         },
       ]
 
+    const FixWidthBox = styled.div`
+    width: 1040px;
+    margin: auto auto;
+  `
 
   return (
     <Wrapper>

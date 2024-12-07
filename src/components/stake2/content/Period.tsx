@@ -13,6 +13,7 @@ const Period = ({ active, month }:
         justify-content: center;
         align-items: end;
         gap: 1.3rem;
+        cursor: pointer;
         div {
             width: 100%;
             height: 10px;

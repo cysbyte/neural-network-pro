@@ -18,6 +18,7 @@ const Wrapper = styled.button`
 `
 
 const ConfirmButton = ({text}:{text: string}) => {
+
   return (
     <Wrapper>
         {text}
